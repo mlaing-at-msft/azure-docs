@@ -95,6 +95,9 @@ Only the Account Administrator can change the Service Administrator for a subscr
 ## How to change the Account Administrator
 To transfer ownership of the Azure account to another account, see [Transferring Ownership of an Azure subscription](billing-subscription-transfer.md).
 
+IMPORTANT: If you delete the underlying email account that is associated to the Account Administrator, or remove that account from Active Directory, the Azure Account will be rendered into an orphaned state and may become unusable. Never delete or remove the Account Administrator's email account with first moving ownership of the Azure Subscription to a different account.
+
+
 ## How to check the Account Administrator of the subscription
 If you're not sure who the account administrator is for your subscription, use the following steps to find out.
 
